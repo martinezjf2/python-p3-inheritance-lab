@@ -16,3 +16,7 @@ class Teacher(User):
         "pipenv shell",
         "pytest -x flag to fail fast",
     ]    
+
+    def teach(self):
+       return random.choice(Teacher.KNOWLEDGE)
+    
