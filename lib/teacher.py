@@ -18,5 +18,6 @@ class Teacher(User):
     ]    
 
     def teach(self):
+        # Resource: https://www.w3schools.com/python/module_random.asp
        return random.choice(Teacher.KNOWLEDGE)
     
